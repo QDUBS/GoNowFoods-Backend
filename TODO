@@ -1,0 +1,24 @@
+STEPS:
+- Install fastapi, sqlalchemy, psycopg2-binary
+- uvicorn main:app --reload
+
+
+DATA MODELS
+1. User
+2. Profile
+3. Restaurant
+
+
+LIST OF ACTIONS TO TAKE FOR GONOW FOODS BACKEND
+- Create a route that fetches all restaurants from the database
+- 
+
+
+MIGRATIONS USING ALEMBIC
+- alembic revision -m "initial" --autogenerate: For generating an initial migration script 
+- alembic upgrade head: Apply the migrations to your database
+- Link: https://ahmed-nafies.medium.com/fastapi-with-sqlalchemy-postgresql-and-alembic-and-of-course-docker-f2b7411ee396
+
+
+MAPS AND DIRECTIONS
+- For finding latitudes and longitudes: https://www.latlong.net/
